@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Game304.Client.Views.Table"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="160" />
+           
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="_northText" Grid.Row="0" Grid.Column="1" Text="North">
+
+            </TextBox>
+            <TextBox x:Name="_westText"  Grid.Row="1" Grid.Column="0" Text="West">
+            </TextBox>
+            <TextBox x:Name="_sourthText"  Grid.Row="2" Grid.Column="1" Text="South">
+
+            </TextBox>
+            <TextBox x:Name="_eastText"  Grid.Row="1" Grid.Column="2" Text="East">
+
+            </TextBox>
+        </Grid>
+        <TextBox x:Name="_message" Grid.Row="1" Background="Yellow" />
+    </Grid>
+</UserControl>

@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game304.Client", "src\Game304.Client\Game304.Client.csproj", "{03E5E19A-F260-445D-A18B-9DCE800FD92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game304.Client.Web", "src\Game304.Client.Web\Game304.Client.Web.csproj", "{7A4BB99E-2065-4D75-843A-3FD8DFB7133C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E5E19A-F260-445D-A18B-9DCE800FD92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E5E19A-F260-445D-A18B-9DCE800FD92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E5E19A-F260-445D-A18B-9DCE800FD92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E5E19A-F260-445D-A18B-9DCE800FD92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4BB99E-2065-4D75-843A-3FD8DFB7133C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4BB99E-2065-4D75-843A-3FD8DFB7133C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4BB99E-2065-4D75-843A-3FD8DFB7133C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4BB99E-2065-4D75-843A-3FD8DFB7133C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
